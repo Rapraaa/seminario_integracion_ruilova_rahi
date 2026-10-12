@@ -1,0 +1,208 @@
+# ============================================================
+# PYTHON
+# ============================================================
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+*.egg
+*.egg-info/
+build/
+dist/
+wheels/
+pip-wheel-metadata/
+
+# ============================================================
+# UV / ENTORNOS VIRTUALES
+# ============================================================
+
+.venv/
+venv/
+env/
+ENV/
+virtualenv/
+virtualenvs/
+
+# Mantener pyproject.toml, uv.lock y .python-version
+
+# ============================================================
+# FASTAPI / BACKEND PYTHON
+# ============================================================
+
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+
+instance/
+local_settings.py
+*.sqlite
+*.sqlite3
+*.db
+*.log
+logs/
+tmp/
+temp/
+
+# ============================================================
+# TESTING Y COBERTURA
+# ============================================================
+
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+nosetests.xml
+test-results/
+junit.xml
+hypothesis/
+
+# ============================================================
+# LINTERS Y TYPE CHECKERS PYTHON
+# ============================================================
+
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+.ruff_cache/
+.pyright/
+
+# ============================================================
+# JUPYTER
+# ============================================================
+
+.ipynb_checkpoints/
+
+# ============================================================
+# NODE.JS / JAVASCRIPT / TYPESCRIPT
+# ============================================================
+
+node_modules/
+.npm/
+.pnpm-store/
+.yarn/cache/
+.yarn/unplugged/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.tsbuildinfo
+
+# Variables de entorno
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+
+# Compilación y cachés
+lib/
+out/
+build/
+dist/
+coverage/
+.nyc_output/
+.eslintcache
+.stylelintcache
+.parcel-cache/
+.turbo/
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.vite/
+
+# ============================================================
+# ANGULAR
+# ============================================================
+
+.angular/cache/
+.sass-cache/
+
+# ============================================================
+# REACT / VUE / NEXT.JS / NUXT / SVELTE
+# ============================================================
+
+.next/
+.nuxt/
+.svelte-kit/
+.vercel/
+.netlify/
+.vuepress/dist/
+.docusaurus/
+.storybook-out/
+
+# ============================================================
+# BASES DE DATOS Y ARCHIVOS LOCALES
+# ============================================================
+
+*.dump
+*.bak
+*.backup
+
+# ============================================================
+# DOCKER
+# ============================================================
+
+docker-compose.override.yml
+docker-compose.override.yaml
+
+# ============================================================
+# IDE Y EDITORES
+# ============================================================
+
+.idea/
+*.iml
+
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# ============================================================
+# SISTEMA OPERATIVO
+# ============================================================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+Thumbs.db
+Thumbs.db:encryptable
+Desktop.ini
+$RECYCLE.BIN/
+
+# ============================================================
+# CERTIFICADOS Y CLAVES PRIVADAS
+# ============================================================
+
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+
+# ============================================================
+# ARCHIVOS TEMPORALES
+# ============================================================
+
+*.tmp
+*.temp
+*.cache
+*.orig
+*.rej
+debug.log
+error.log
+
